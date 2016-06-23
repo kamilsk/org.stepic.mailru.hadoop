@@ -1,0 +1,3 @@
+# This is just example of testN stdin...
+
+The test that checked

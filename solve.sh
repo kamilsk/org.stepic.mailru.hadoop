@@ -11,9 +11,9 @@ TASK=$LESSON/$EXERCISE
 
 if [ "$VERBOSE" == "--verbose" ]
 then
-  cat $TASK/${PREFIX}in.txt | python $TASK/run.py > >(tee -i /tmp/out.txt)
+  cat $TASK/${PREFIX}in.txt | python $TASK/solution.py > >(tee -i /tmp/out.txt)
 else
-  cat $TASK/${PREFIX}in.txt | python $TASK/run.py > /tmp/out.txt
+  cat $TASK/${PREFIX}in.txt | python $TASK/solution.py > /tmp/out.txt
 fi
 
 DIFF=$(diff $TASK/${PREFIX}out.txt /tmp/out.txt)

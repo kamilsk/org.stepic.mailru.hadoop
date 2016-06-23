@@ -5,7 +5,7 @@ EXERCISE=$2
 TASK=$LESSON/$EXERCISE
 
 mkdir -p $TASK
-cat >$TASK/run.py <<EOL
+cat >$TASK/solution.py <<EOL
 import sys
 
 

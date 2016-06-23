@@ -1,6 +1,6 @@
 > # org.stepic.mailru.hadoop
 >
-> Skeleton for free online course on
+> Skeleton for Hadoop course from Mail.ru on
 > [stepic.org](https://stepic.org/course/Hadoop-Система-для-обработки-больших-объемов-данных-150).
 
 ## Requirements

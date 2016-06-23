@@ -25,7 +25,7 @@ $ ./run.sh example show
 - success
 ```
 
-### Verbose
+### Verbose (print stdout)
 
 ```bash
 $ ./run.sh example show --verbose

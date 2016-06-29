@@ -30,14 +30,14 @@ $ git rebase upstream/master
 ### Silent
 
 ```bash
-$ ./solve.sh example show
+$ ./solve example show
 - success
 ```
 
 ### Verbose (print stdout)
 
 ```bash
-$ ./solve.sh example show --verbose
+$ ./solve example show --verbose
 Hello, World!
 - success
 ```
@@ -45,14 +45,14 @@ Hello, World!
 ### Task test
 
 ```bash
-$ ./solve.sh example show:testN
+$ ./solve example show:testN
 - success
 ```
 
 ### Example of failure
 
 ```bash
-$ ./solve.sh example show:fail
+$ ./solve example show:fail
 - failure
 The test that failed                                          | The test that checked
 ```
@@ -62,7 +62,7 @@ The test that failed                                          | The test that ch
 ### Create task
 
 ```bash
-$ ./init.sh 5.3 1
+$ ./init 5.3 1
 ```
 
 It will be create the next structure:
@@ -87,7 +87,7 @@ It will be create the next structure:
 If your task solution is ok you will see something like this
 
 ```bash
-$ ./solve.sh 5.3 1
+$ ./solve 5.3 1
 - success
 ```
 

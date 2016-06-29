@@ -1,7 +1,6 @@
 > # org.stepic.mailru.hadoop
 >
-> Skeleton for Hadoop course from Mail.ru on
-> [stepic.org](http://bit.ly/stepic-hadoop).
+> Skeleton for Hadoop course from Mail.ru on [stepic.org](http://bit.ly/stepic-hadoop).
 
 ## Requirements
 
@@ -14,8 +13,16 @@
 ```bash
 $ git clone git@github.com:kamilsk/org.stepic.mailru.hadoop.git
 $ cd org.stepic.mailru.hadoop
+$ git remote rename origin upstream
 $ virtualenv -p `which python3` virtenv
 $ source virtenv/bin/activate
+```
+
+## Update
+
+```bash
+$ git fetch upstream --all
+$ git rebase upstream/master
 ```
 
 ## Example of work

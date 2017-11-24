@@ -92,3 +92,5 @@ $ ./solve 5.3 1
 ```
 
 Otherwise you will see `sdiff` between your script `stdout` and `out.txt`.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-109817251-23/unsupported/org.stepic.mailru.hadoop/readme)](https://github.com/igrigorik/ga-beacon)

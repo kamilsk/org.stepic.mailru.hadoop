@@ -1,6 +1,9 @@
-> # org.stepic.mailru.hadoop
+> # org.stepik.mailru.hadoop
 >
-> Skeleton for Hadoop course from Mail.ru on [stepic.org](http://bit.ly/stepic-hadoop).
+> Skeleton for Hadoop course from Mail.ru on [stepik.org](https://bit.ly/stepik-hadoop).
+
+[![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/octolab)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
 
 ## Requirements
 
@@ -11,8 +14,8 @@
 ## Installation
 
 ```bash
-$ git clone git@github.com:kamilsk/org.stepic.mailru.hadoop.git
-$ cd org.stepic.mailru.hadoop
+$ git clone git@github.com:kamilsk/org.stepik.mailru.hadoop.git
+$ cd org.stepik.mailru.hadoop
 $ git remote rename origin upstream
 $ virtualenv -p `which python3` virtenv
 $ source virtenv/bin/activate
@@ -93,4 +96,13 @@ $ ./solve 5.3 1
 
 Otherwise you will see `sdiff` between your script `stdout` and `out.txt`.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-109817251-23/unsupported/org.stepic.mailru.hadoop/readme)](https://github.com/igrigorik/ga-beacon)
+## Feedback
+
+[![@kamilsk](https://img.shields.io/badge/author-%40kamilsk-blue.svg)](https://twitter.com/ikamilsk)
+[![@octolab](https://img.shields.io/badge/sponsor-%40octolab-blue.svg)](https://twitter.com/octolab_inc)
+
+## Notes
+
+- made with ❤️ by [OctoLab](https://www.octolab.org/)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-109817251-23/unsupported/org.stepik.mailru.hadoop/readme)](https://github.com/igrigorik/ga-beacon)

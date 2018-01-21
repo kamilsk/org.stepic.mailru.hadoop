@@ -1,6 +1,6 @@
 > # org.stepik.mailru.hadoop [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Skeleton%20for%20Hadoop%20course%20of%20Mail.ru%20on%20stepik.org&url=https://github.com/kamilsk/org.stepik.mailru.hadoop&via=ikamilsk&hashtags=stepik,hadoop,mailru)
 > [![Analytics](https://ga-beacon.appspot.com/UA-109817251-23/unsupported/org.stepik.mailru.hadoop/readme?pixel)](https://github.com/kamilsk/org.stepik.mailru.hadoop)
-> Skeleton for Hadoop course of Mail.ru on [stepik.org](https://bit.ly/stepik-hadoop).
+> Skeleton for Hadoop course of Mail.Ru Group on [stepik.org](https://bit.ly/stepik-hadoop).
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/octolab)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
